@@ -11,13 +11,13 @@ from pathlib import Path
 # ===================================================================
 
 # Get these from https://my.telegram.org
-TG_API_ID = os.getenv("TG_API_ID", "")          # e.g. "12345678"
-TG_API_HASH = os.getenv("TG_API_HASH", "")      # e.g. "abc123def456..."
-TG_BOT_TOKEN = os.getenv("TG_BOT_TOKEN", "")    # e.g. "123456:ABC-DEF..."
+TG_API_ID = os.getenv("TG_API_ID", "33029767")          # e.g. "12345678"
+TG_API_HASH = os.getenv("TG_API_HASH", "5d897bed11bc8b062a12f6c1c3c5360a")      # e.g. "abc123def456..."
+TG_BOT_TOKEN = os.getenv("TG_BOT_TOKEN", "8719198691:AAEr0tXDu1TTK1LDzLPf-Ycv0EvzqXzzp7c")    # e.g. "123456:ABC-DEF..."
 
 # Admin user IDs who can use the bot (get from @userinfobot)
 TG_ADMINS = [
-    int(x) for x in os.getenv("TG_ADMINS", "").split(",") if x
+    int(x) for x in os.getenv("TG_ADMINS", "8729304171").split(",") if x
 ]
 
 # ===================================================================
