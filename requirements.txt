@@ -1,0 +1,10 @@
+# Ott-Bot Dependencies
+playwright>=1.40.0
+pywidevine>=1.1.0
+requests>=2.31.0
+yt-dlp>=2024.1.1
+pyrogram>=2.0.106
+tgcrypto>=1.2.5
+websocket-client>=1.7.0
+click>=8.1.7
+rich>=13.7.0
